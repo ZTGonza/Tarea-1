@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Hoja de vida profesional" />
+    <link rel="icon" href="/static/icons8-goat-64.png" type="image/png" />
+    <link rel="stylesheet" href="/template-static/style.css" />
+    <title>Mi Hoja de Vida</title>
+  </head>
+  <body>
+    <!-- ===== BARRA DE NAVEGACIÓN ===== -->
+    <nav class="barra-nav">
+      <ul class="lista-nav">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#tecnologias">Tecnologías</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <!-- ===== PORTADA / PRESENTACIÓN ===== -->
+    <header id="inicio" class="portada">
+      <div class="contenido-portada">
+        <img src="/static/FOTO.jpg" alt="Foto de perfil" class="img-perfil" />
+        <h1 class="nombre">Santiago Gonzaliaz Lucumi</h1>
+        <p class="rol">Desarrollador de Software</p>
+      </div>
+    </header>
+
+    <main class="contenedor">
+      <!-- ===== SOBRE MÍ ===== -->
+      <section id="sobre-mi" class="seccion">
+        <h2 class="titulo-seccion">Sobre mí</h2>
+        <p class="texto-seccion">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+          reprehenderit, nisi vero a ipsum sapiente vitae, laborum provident
+          doloremque officiis expedita eligendi ut, deleniti voluptates. Quas
+          animi inventore labore dolor.
+        </p>
+      </section>
+
+      <!-- ===== EDUCACIÓN ===== -->
+      <section class="seccion">
+        <h2 class="titulo-seccion">Educación</h2>
+        <ul class="lista">
+          <li>
+            <strong>Educacion</strong>
+            <span class="atenuado">— Secundaria </span>
+          </li>
+          <li>
+            <strong>Técnico en Sistemas</strong>
+            <span class="atenuado">— Comfacacauca </span>
+          </li>
+        </ul>
+      </section>
+
+      <!-- ===== STACK TECNOLÓGICO ===== -->
+      <section id="tecnologias" class="seccion">
+        <h2 class="titulo-seccion">Tecnologias</h2>
+        <ul class="grid-tecnologias">
+          <li class="item-hablidades">Python</li>
+          <li class="item-hablidades">JavaScript</li>
+          <li class="item-hablidades">Java</li>
+          <li class="item-hablidades">Git</li>
+          <li class="item-hablidades">React</li>
+        </ul>
+      </section>
+
+      <!-- ===== CONTACTO ===== -->
+      <section id="contacto" class="seccion">
+        <h2 class="titulo-seccion">Contacto</h2>
+        <ul class="lista-contacto">
+          <li><strong>Telefono:</strong> (317) 894-3977</li>
+          <li>
+            <strong>Correo:</strong> Santiago.gonzaliaz@correounivalle.edu.co
+          </li>
+          <li><strong>GitHub:</strong> https://github.com/ZT-SantG</li>
+          <li><strong>Ubicacion:</strong> Santander de Quilichao, Cauca</li>
+        </ul>
+      </section>
+
+      <!-- ===== IDIOMAS ===== -->
+      <section class="seccion">
+        <h2 class="titulo-seccion">Idiomas</h2>
+        <ul class="lista">
+          <li>Español — Nativo</li>
+          <li>Inglés — Intermedio</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <form id="formulario-contacto">
+          <h2 class="titulo-seccion">Formulario de Contacto</h2>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required />
+          <label for="apellido">Apellido:</label>
+          <input type="text" id="apellido" name="apellido" required />
+          <label for="correo">Correo electrónico:</label>
+          <input type="email" id="correo" name="correo" required />
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- ===== PIE DE PÁGINA ===== -->
+    <footer class="pie-pagina">
+      <p>Universidad del Valle &copy; Santiago Gonzaliaz Lucumi</p>
+    </footer>
+    <script src="/template-static/script.js"></script>
+  </body>
+</html>
